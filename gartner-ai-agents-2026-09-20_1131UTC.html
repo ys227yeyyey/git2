@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gartner AI Agents Digest</title>
+<style>
+  :root{
+    --bg:#f6f7f9; --card:#ffffff; --ink:#1b1f24; --muted:#5b6672;
+    --line:#e3e7ec; --accent:#0a66c2; --chip:#eef4fb;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#14171a; --card:#1c2024; --ink:#e9edf2; --muted:#a3adb8;
+      --line:#2c3238; --accent:#6aa9e9; --chip:#22303d;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#14171a; --card:#1c2024; --ink:#e9edf2; --muted:#a3adb8;
+    --line:#2c3238; --accent:#6aa9e9; --chip:#22303d;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    line-height:1.7;
+  }
+  .wrap{max-width:860px; margin:0 auto; padding:40px 16px 64px}
+  header.page{border-bottom:2px solid var(--line); padding-bottom:20px; margin-bottom:28px}
+  h1{font-size:1.75rem; margin:0 0 8px; letter-spacing:-.02em}
+  .sub{color:var(--muted); font-size:.92rem; margin:0}
+  .note{
+    background:var(--chip); border:1px solid var(--line); border-radius:10px;
+    padding:12px 16px; font-size:.86rem; color:var(--muted); margin:20px 0 0;
+  }
+  article{
+    background:var(--card); border:1px solid var(--line); border-radius:14px;
+    padding:24px; margin-bottom:24px;
+  }
+  .meta{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px}
+  .tag{
+    background:var(--chip); color:var(--accent); border-radius:999px;
+    padding:3px 12px; font-size:.76rem; font-weight:600; letter-spacing:.02em;
+  }
+  h2{font-size:1.2rem; margin:0 0 10px; line-height:1.4}
+  h3{font-size:.95rem; margin:22px 0 8px; color:var(--accent); letter-spacing:.01em}
+  ul{margin:0; padding-left:20px}
+  li{margin-bottom:8px}
+  .analogy{
+    border-left:3px solid var(--accent); background:var(--chip);
+    padding:12px 16px; border-radius:0 10px 10px 0; margin:16px 0 0; font-size:.94rem;
+  }
+  .analogy strong{display:block; margin-bottom:4px; font-size:.8rem; letter-spacing:.04em; text-transform:uppercase; color:var(--accent)}
+  a{color:var(--accent); word-break:break-word}
+  .src{font-size:.85rem; margin:18px 0 0; padding-top:14px; border-top:1px solid var(--line)}
+  .src span{color:var(--muted); display:block; margin-bottom:2px}
+  footer{color:var(--muted); font-size:.82rem; text-align:center; margin-top:36px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="page">
+    <h1>Gartner AI Agents Digest</h1>
+    <p class="sub">Three Gartner articles on AI agents / agentic AI published in the last two weeks &middot; Collected 2026-09-20 11:31 UTC</p>
+  </header>
+
+  <!-- ARTICLE 1 -->
+  <article>
+    <div class="meta">
+      <span class="tag">Published 2026-09-16</span>
+      <span class="tag">Press release &middot; Market forecast</span>
+    </div>
+    <h2>1. Gartner Forecasts Worldwide AI Spending to Grow 49.5% in 2026</h2>
+
+    <h3>What it says</h3>
+    <ul>
+      <li>Worldwide AI spending is forecast to reach <strong>$2.7 trillion in 2026</strong>, up <strong>49.5% year over year</strong>.</li>
+      <li>This is an <em>upward revision</em>: Gartner's May 2026 forecast said 47% growth, and the January 2026 forecast said $2.5 trillion. The number keeps being revised up as demand outruns expectations.</li>
+      <li>Growth for <strong>generative AI models</strong> was raised from 110% to <strong>117%</strong> in this forecast round.</li>
+      <li><strong>AI infrastructure is still the single biggest bucket of spend</strong> &mdash; hyperscalers and service providers buying AI-optimized servers to add capacity.</li>
+      <li>The agent angle: <strong>software vendors are racing to embed agentic AI into products they already sell</strong>, in order to stay relevant and to defend their turf against new "cross-functional" agents that cut across the boundaries of traditional apps.</li>
+    </ul>
+
+    <div class="analogy">
+      <strong>In everyday terms</strong>
+      Think of existing business software as separate shops on a shopping street &mdash; one for HR, one for accounting, one for sales. A cross-functional AI agent is like a personal errand-runner who walks the whole street for you and doesn't care which shop is which. Each shop is now hurrying to hire its own errand-runner, so you don't stop coming in.
+    </div>
+
+    <div class="src">
+      <span>Source URL</span>
+      <a href="https://www.gartner.com/en/newsroom/press-releases/2026-09-16-gartner-forecasts-worldwide-ai-spending-to-grow-49-point-5-percent-in-2026">https://www.gartner.com/en/newsroom/press-releases/2026-09-16-gartner-forecasts-worldwide-ai-spending-to-grow-49-point-5-percent-in-2026</a>
+    </div>
+  </article>
+
+  <!-- ARTICLE 2 -->
+  <article>
+    <div class="meta">
+      <span class="tag">Published 2026-09-15</span>
+      <span class="tag">Press release &middot; Strategic predictions</span>
+    </div>
+    <h2>2. Gartner Unveils Top Strategic Predictions for 2027 and Beyond</h2>
+
+    <h3>What it says</h3>
+    <ul>
+      <li>The predictions are grouped into three themes: <strong>robots everywhere</strong>, <strong>cost to value</strong>, and <strong>unknown unknowns</strong>.</li>
+      <li>Headline agent prediction: by the end of <strong>2030, more than 10 billion autonomous agents</strong> created by individuals, companies and governments <strong>will clog public services</strong>.</li>
+      <li>Why they clog things: agents can <strong>spot opportunities, check eligibility and file requests on a person's behalf with almost no human effort</strong>. The cost of submitting an application drops to near zero, so the volume of applications, claims and transactions explodes.</li>
+      <li>The consequence Gartner flags is not just load &mdash; it is <strong>identity, trust and accountability</strong>. Systems need to know <em>who</em> (or what) is really asking, and who is answerable for it.</li>
+      <li>Also under "robots everywhere": by <strong>2030, 80% of front-line workers</strong> at international companies will be assisted by <strong>physical AI</strong> &mdash; robots, drones, autonomous vehicles and other embodied systems that sense and act in the real world.</li>
+      <li>Quote from <strong>Daryl Plummer, Distinguished VP Analyst and Gartner Fellow</strong>: "Many of the systems we take for granted today, from public services to software, energy and workforce models, will be fundamentally transformed by AI over the next decade. The most successful organizations will be those that balance innovation with responsibility, building the capabilities needed to manage both the opportunities and the unintended consequences of an AI-driven world."</li>
+    </ul>
+
+    <div class="analogy">
+      <strong>In everyday terms</strong>
+      Imagine a concert ticket sale where everyone suddenly has a bot refreshing the page for them. Nobody is cheating, exactly &mdash; but the queue stops working, because it was designed for humans who get tired. Public services are the queue, and by 2030 there may be 10 billion tireless bots standing in it.
+    </div>
+
+    <div class="src">
+      <span>Source URL</span>
+      <a href="https://www.gartner.com/en/newsroom/press-releases/2026-09-15-gartner-unveils-top-strategic-predictions-for-2027-and-beyond">https://www.gartner.com/en/newsroom/press-releases/2026-09-15-gartner-unveils-top-strategic-predictions-for-2027-and-beyond</a>
+    </div>
+  </article>
+
+  <!-- ARTICLE 3 -->
+  <article>
+    <div class="meta">
+      <span class="tag">Published 2026-09-14</span>
+      <span class="tag">Press release &middot; Government / public sector</span>
+    </div>
+    <h2>3. Gartner Reveals Top Technology Trends in Government</h2>
+
+    <h3>What it says</h3>
+    <ul>
+      <li>Gartner names <strong>three top government technology trends for 2026</strong>: <strong>agentic AI</strong>, <strong>evolving cybersecurity</strong>, and <strong>modern technology service delivery</strong>.</li>
+      <li>Agentic AI is expected to <strong>support government operations, improve citizen experiences, accelerate software development, and automate routine decision-making</strong>.</li>
+      <li>The central argument: the conversation <strong>has to move from "implementing technology" to "transforming the organization."</strong> Buying the tool is the easy part.</li>
+      <li>Success with agentic AI is said to depend on three things: <strong>modern governance</strong>, <strong>workforce readiness</strong>, and <strong>the ability to redesign business processes</strong> &mdash; while keeping the foundation adaptable for whatever comes next.</li>
+      <li>Context: public sector leaders are under pressure to modernize operations, strengthen cyber resilience, govern AI at scale, and meet rising citizen expectations amid economic and geopolitical uncertainty.</li>
+      <li>Small but notable: Gartner says <strong>many governments are already working on governance frameworks, digital identities and operating models</strong> for AI agents &mdash; which lines up directly with the identity-and-trust warning in the 2027 predictions above.</li>
+    </ul>
+
+    <div class="analogy">
+      <strong>In everyday terms</strong>
+      Handing an AI agent to a government office without changing the office is like buying a dishwasher and still washing every dish by hand first. The machine isn't the win &mdash; rearranging the kitchen around it is.
+    </div>
+
+    <div class="src">
+      <span>Source URL</span>
+      <a href="https://www.gartner.com/en/newsroom/press-releases/2026-09-14-gartner-reveals-top-technology-trends-in-government">https://www.gartner.com/en/newsroom/press-releases/2026-09-14-gartner-reveals-top-technology-trends-in-government</a>
+    </div>
+  </article>
+
+  <div class="note">
+    <strong>How these were gathered:</strong> gartner.com could not be loaded directly from this environment (the network egress policy blocks the domain), so the three articles were identified and summarized from indexed search results for gartner.com rather than from the live pages. Figures, quotes and framing above reflect what those results reported; the source URLs are included so each article can be verified at the original page.
+  </div>
+
+  <footer>Generated 2026-09-20 11:31 UTC</footer>
+
+</div>
+</body>
+</html>
